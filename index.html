@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">  
+	</head>
+	
+	<body>
+    
+		<div id="date-picker">
+			<div style="display: flex; flex-direction: row;">
+				<span id="date">1 1 2020</span>
+				<img id="calendar-icon" src="calendarIcon.svg" alt="calendar">
+			</div>
+
+			<div id="calendar">
+				<div id="month-display">January 2020</div>
+				<img id="month-prev-btn" src="arrow-left.svg" alt="<">
+				<img id="month-next-btn" src="arrow-right.svg" alt=">">
+				
+				<div class="calendar-day day-active" style="cursor: pointer; grid-area: 4 / 1 / 4 / 2;">1</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 2 / 4 / 3;">2</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 3 / 4 / 4;">3</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 4 / 4 / 5;">4</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 5 / 4 / 6;">5</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 6 / 4 / 7;">6</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 4 / 7 / 4 / 8;">7</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 1 / 5 / 2;">8</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 2 / 5 / 3;">9</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 3 / 5 / 4;">10</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 4 / 5 / 5;">11</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 5 / 5 / 6;">12</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 6 / 5 / 7;">13</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 5 / 7 / 5 / 8;">14</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 1 / 6 / 2;">15</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 2 / 6 / 3;">16</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 3 / 6 / 4;">17</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 4 / 6 / 5;">18</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 5 / 6 / 6;">19</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 6 / 6 / 7;">20</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 6 / 7 / 6 / 8;">21</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 1 / 7 / 2;">22</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 2 / 7 / 3;">23</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 3 / 7 / 4;">24</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 4 / 7 / 5;">25</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 5 / 7 / 6;">26</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 6 / 7 / 7;">27</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 7 / 7 / 7 / 8;">28</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 8 / 1 / 8 / 2;">29</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 8 / 2 / 8 / 3;">30</div>
+				<div class="calendar-day" style="cursor: pointer; grid-area: 8 / 3 / 8 / 4;">31</div>
+
+				<div id="select-btn">Select</div>
+			</div>
+		</div>
+	
+	</body>
+
+<script src="app.js"></script>
+</html>
